@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+   
+    <script defer src="/script.js"></script>
+    <title>Trippy : Plan your trip easily</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="hero">
+
+      <nav class="main-nav container">
+        <img class="main-logo" src="img/trippy_logo.png" alt="trippy logo" />
+
+        <ul class="main-nav-list">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#india">India tour</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#international">International tour</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="#features">Features</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="btn book-now-hero" href="#cta">Book Now</a>
+          </li>
+        </ul>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline" role="img" aria-label="menu outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline" role="img" aria-label="menu outline"></ion-icon>
+        </button>
+
+      </nav>
+
+     
+
+      <div class="hero-box grid">
+        <div class="header-text-box">
+          <h1 class="heading-hero">
+            We will helping find the perfect holidays for you!
+          </h1>
+          <p class="text-hero">
+            Trippy enables users to quickly and easily explore a destination
+            offerings and create personalized sightseeing itineraries by
+            utilizing local expertise and cutting-edge artificial intelligence.
+          </p>
+
+          <div class="btn-hero">
+            <a class="btn btn-try" href="#cta">Try now</a>
+            <a class="btn btn-learn-more" href="#">Learn more &rarr;</a>
+          </div>
+        </div>
+
+        <div class="hero-img-box">
+          <img
+            class="hero-img"
+            alt="women boating and tajmahal"
+            src="img/hero.webp"
+          />
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <main>
+      <section class="container counter">
+        <span class="heading-meta achivement">Our achivement</span>
+
+        <div class="grid grid-4-cols">
+          <div class="counter-element">
+            <ion-icon class="counter-icon" name="location-outline"></ion-icon>
+            <p class="counter-total">1523</p>
+            <p class="counter-name">Destination</p>
+          </div>
+
+          <div class="counter-element">
+            <ion-icon class="counter-icon" name="earth-outline"></ion-icon>
+            <p class="counter-total">1898</p>
+            <p class="counter-name">Tours</p>
+          </div>
+
+          <div class="counter-element">
+            <ion-icon class="counter-icon" name="business-outline"></ion-icon>
+            <p class="counter-total">552</p>
+            <p class="counter-name">Hotels</p>
+          </div>
+
+          <div class="counter-element">
+            <ion-icon class="counter-icon" name="person-outline"></ion-icon>
+            <p class="counter-total">1299</p>
+            <p class="counter-name">Tourists</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tour container" id="india">
+        <span class="heading-meta">India tour package</span>
+        <h3 class="heading-india-tour heading-tertiary">
+          Explore Incredible India
+        </h3>
+        <div class="place grid grid-3-cols">
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/manali.webp"
+              alt=" Manali image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Manali</p>
+                <p class="price"><span class="ruppee">&#8377;</span>15000</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  2 days / 3 nights
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="walk-outline"></ion-icon
+                  ></span>
+                  Tracking
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="cloud-outline"
+                    ></ion-icon></span>
+                  Paragliding
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="trophy-outline"
+                    </ion-icon></span>
+                  Ice skate
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/goa.webp"
+              alt=" Goa image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Goa</p>
+                <p class="price"><span class="ruppee">&#8377;</span>35000</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  3 days / 3 nights
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="water-outline"></ion-icon
+                  ></span>
+                  Scuba diving
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="accessibility-outline"
+                    ></ion-icon></span>
+                    Bungee Jumping
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="balloon-outline"
+                    </ion-icon></span>
+                    Hot Air Balloon ride
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/tajmahal.webp"
+              alt=" Tajmahal image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Taj Mahal</p>
+                <p class="price"><span class="ruppee">&#8377;</span>6000</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  1 day / 1 night
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="walk-outline"></ion-icon
+                  ></span>
+                  Taj mahal visit
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="home-outline"
+                    ></ion-icon></span>
+                    Agra fort
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="flower-outline"
+                    </ion-icon></span>
+                    Fatehpur Sikri
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-more-main">
+        <a class="show-more" href="#">Show more &rarr;</a>
+      </div>
+      </section>
+
+      <section class="tour container" id="international">
+        <span class="heading-meta">International tour package</span>
+        <h3 class="heading-india-tour heading-tertiary">
+          One life one world explore it
+        </h3>
+        <div class="place grid grid-3-cols">
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/maldives.webp"
+              alt=" maldives image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Maldives</p>
+                <p class="price"><span class="ruppee">&#8377;</span>90000</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  3 days/ 4 nights
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="walk-outline"></ion-icon
+                  ></span>
+                  Half Day Island Hopping
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="fast-food-outline"
+                    ></ion-icon></span>
+                    Meal Plan on Full Board
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="boat-outline"
+                    </ion-icon></span>
+                    Canoe and Windsurfing
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/dubai.webp"
+              alt=" dubai image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Dubai</p>
+                <p class="price"><span class="ruppee">&#8377;</span>68851</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  5 Nights / 6 days
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="water-outline"></ion-icon
+                  ></span>
+                Under Water Zoo
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="business-outline"
+                    ></ion-icon></span>
+                    Dubai City Tour
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="balloon-outline"
+                    </ion-icon></span>
+                    Desert Safari
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-package">
+            <img
+              class="india-tour-img"
+              src="img/turkey.webp"
+              alt=" turkey image"
+            />
+            <div class="place-detail">
+              <div class="name-price">
+                <p class="place-name">Turkey</p>
+                <p class="price"><span class="ruppee">&#8377;</span>176424</p>
+              </div>
+              <ul class="place-lists">
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="time-outline"></ion-icon
+                  ></span>
+                  6 nights / 7 days
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon class="icon-tour" name="star-outline"></ion-icon
+                  ></span>
+                  5 Star accommodation
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="checkmark-outline"
+                    ></ion-icon></span>
+                    Ruins of Ephesus
+                </li>
+                <li class="place-list">
+                  <span
+                    ><ion-icon
+                      class="icon-tour"
+                      name="home-outline"
+                    </ion-icon></span>
+                    Mother Mary House
+                </li>
+              </ul>
+              <p class="btn-book-now">
+                <a class="btn-book-trip" href="#">Book Now</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-more-main">
+        <a class="show-more" href="#">Show more &rarr;</a>
+      </div>
+      </section>
+
+      <section class="why-us" id="features">
+
+        <span class="heading-feature heading-meta">Features</span>
+        <h3 class="heading-why heading-tertiary">Why people like us?</h3>
+        <div class="why-element grid-2-cols">
+          
+          <div class="why-text-box grid-2-cols">
+
+            <div class="why-text">
+              <span class="why-number">01</span>
+              <p class="heading-text">Best Price Guarantee</p>
+              <p class="why-text-para"><span>Best Price Guarantee:</span> We provide you with the best price on your tour.</p>
+            </div>
+
+            <div class="why-text">
+              <span class="why-number">02</span>
+              <p class="heading-text">Pricing Transparency</p>
+              <p class="why-text-para"><span>100% transparency:</span> Provide you all the details where yor are spending how much money.</p>
+            </div>
+
+          </div>
+
+          <div class="why-us-img-1 why-us-img">
+            <img class="why-img" src="img/why-1.webp" alt="girl in mountain"/>
+            <img class="why-img" src="img/why-2.webp" alt="city in night"/>
+            <img class="why-img" src="img/why-3.webp" alt="beaches with house"/>
+          </div>
+        </div>
+
+        <div class="why-element grid-2-cols">
+          
+          <div class="why-us-img-2 why-us-img">
+            <img class="why-img" src="img/why-6.webp" alt="boat in lake"/>
+            <img class="why-img" src="img/why-5.webp" alt="house on mountain"/>
+            <img class="why-img" src="img/why-4.webp" alt="girl in swimming pool"/>
+          </div>
+          
+          <div class="why-text-box grid-2-cols">
+
+            <div class="why-text">
+              <span class="why-number">03</span>
+              <p class="heading-text">Diverse Destinations</p>
+              <p class="why-text-para"><span>1523 destinations:</span> Trippy offers a vast range of packages.</p>
+            </div>
+
+            <div class="why-text">
+              <span class="why-number">04</span>
+              <p class="heading-text">Incredible Journey</p>
+              <p class="why-text-para"><span>Amazing Discounts:</span> Instant Refund, Price Comparisons and Great Value</p>
+            </div>
+
+          </div>
+
+         
+        </div>
+      </section>
+
+      <section class="testimonial container">
+
+        <span class="testimonial-heading-meta heading-meta">Testimonials</span>
+        <h3 class="heading-tertiary">What our client says</h3>
+        <div class="testimonials grid grid-3-cols">
+
+          <div class="test-box">
+
+            <img class="person-img" src="img/face-akash.jpg" alt="testimonial face image" />
+            <p class="person-name">Akash kaushik</p>
+            <blockquote class="person-review">"Firstly thanks for the extra efforts which you took to get our tickets for our honeymoon otherwise we would have lost one day at Maldives ."</blockquote>
+
+          </div>
+
+          <div class="test-box">
+
+            <img class="person-img" src="img/face-sarthak.jpg" alt="testimonial face image" />
+            <p class="person-name">Sarthak Tyagi</p>
+            <blockquote class="person-review">"Indeed the experience was awesome. I really appreciate your co-ordination to ensure that the holiday experience was amazing and unforgetful one."</blockquote>
+
+          </div>
+
+          <div class="test-box">
+
+            <img class="person-img" src="img/face-preeti.jpg" alt="testimonial face image" />
+            <p class="person-name">Preeti Agarwal</p>
+            <blockquote class="person-review">"We had a wonderful time and everything went on as planned. The itinerary you sent me was pretty clear and everything was as per schedule."</blockquote>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="cta" id="cta">
+        <span class="heading-meta">Contact us</span>
+        <h3 class="heading-tertiary">Say Hello!</h3>
+        <div class="cta-box-container">
+      <div class="cta-box">
+
+        <div class="cta-form-box">
+        
+          <form class="cta-form">
+              <div>
+                <label class="label" for="fullname">Full name</label>
+                <input class="input fullname" placeholder="Vikas kaushik" id="fullname" required/>
+              </div>
+
+              <div>
+                <label  class="label" for="phone">Phone</label>
+                <input class="input phone" placeholder="8412103747" id="phone" required/>
+              </div>
+            
+            <div>
+                <lable  class="label"  for="select">Choose country</lable>
+                <select class="input select" id="select" required>
+                  <option value>Choose country</option>
+                  <option value="india">India</option>
+                  <option value="international">International</option>
+                </select>
+            </div>
+
+            <div>
+              <button class="cta-btn" href="#">Contact</button>
+          
+          </form>
+        </div>
+        </div>
+           <img class="cta-imgs" src="img/cta-img.webp" alt="girl standing"/>
+        </div>
+      </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+      <div class="footer-grid grid-5-cols">
+
+        <div class="logo-footer">
+
+          <a class="logo-footer-link" href="#"><img class="logo-img-footer" src="img/trippy_logo.png" alt="Trippy logo"/></a>
+
+          <div class="social-footer">
+            <a class="social-link" href="#"><ion-icon class="social-img" name="logo-instagram"></ion-icon></a>
+            <a class="social-link" href="#"><ion-icon class="social-img" name="logo-facebook"></ion-icon></a>
+            <a class="social-link" href="#"><ion-icon class="social-img" name="logo-twitter"></ion-icon></a>
+          </div>
+
+          <p class="copyright">Copyright &copy; 2022 by Trippy, Inc All rights reserved</p>
+
+        </div>
+
+        <div class="contact-us-footer footer-list">
+
+          <h4 class="heading-footer">
+            Contact us
+          </h4>
+
+          <address class="address">
+          <p class="office">206 Oxy homez, ghaziabad Uttar pradesh,
+            201102</p>
+
+          <p class="phone-email">
+            <a class="phone" href="tel:8433103747">8433103747</a>
+            <br>
+            <a class="email" href="mailto:hello@trippy.com">hello@trippy.com</a>
+          </p>
+        </address>
+        </div>
+
+        <div class="account-footer footer-list">
+          <h4 class="heading-footer">
+            Account
+          </h4>
+
+          <div class="account-list">
+            <ul>
+              <li ><a href="#">Create account</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">iOS app</a></li>
+              <li><a href="#">Android app</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="company-footer footer-list">
+          <h4 class="heading-footer">
+            Company
+          </h4>
+
+          <div class="company-list">
+            <ul>
+              <li><a href="#">About Omnifood</a></li>
+              <li><a href="#">For Business</a></li>
+              <li><a href="#">Traveling partners</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resources-footer footer-list">
+          <h4 class="heading-footer">
+            Resources
+          </h4>
+
+          <div class="resources-list">
+            <ul>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Privacy & terms</a></li>
+             
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+</html>
